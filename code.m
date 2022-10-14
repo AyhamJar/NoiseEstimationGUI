@@ -1,4 +1,4 @@
-classdef NoiseEstimation < matlab.apps.AppBase
+classdef NoiseEstimator < matlab.apps.AppBase
 
     % Properties that correspond to app components
     properties (Access = public)
@@ -337,7 +337,7 @@ end
     methods (Access = public)
 
         % Construct app
-        function app = NoiseEstimation
+        function app = NoiseEstimator
 
             % Create UIFigure and components
             createComponents(app)
